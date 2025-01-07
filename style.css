@@ -60,11 +60,11 @@ body {
     width: 100vw;
 }
 
-.sidebar {
+.main-sidebar {
     grid-area: 1/1/3/2;
 }
 
-header {
+.main-header {
     grid-area: 1/2/3/3
 }
 
@@ -81,3 +81,4 @@ header {
     background-color: rgb(26 146 211);
     padding: 2rem;
 }
+

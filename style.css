@@ -51,6 +51,7 @@ table {
 
 /* my css */
 
+/* main grid container layout */
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -69,4 +70,14 @@ header {
 
 .main-content {
     grid-area: 2/2/3/3;
+}
+
+/* sidebar grid container layout */
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: flex-start;
+    gap: 25px;
+    background-color: rgb(26 146 211);
+    padding: 2rem;
 }

@@ -73,7 +73,7 @@ body {
 }
 
 /* sidebar grid container layout */
-.sidebar {
+.main-sidebar {
     display: grid;
     grid-template-columns: 1fr;
     align-content: flex-start;
@@ -82,3 +82,12 @@ body {
     padding: 2rem;
 }
 
+.sidebar-header,
+.navigation,
+.branding {
+    display: grid;
+}
+
+.main-sidebar  a {
+    display: flex;
+}

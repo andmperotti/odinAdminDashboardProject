@@ -83,8 +83,8 @@ body {
 }
 
 .sidebar-header,
-.navigation,
-.branding {
+.sidebar-navigation,
+.sidebar-branding {
     display: grid;
 }
 

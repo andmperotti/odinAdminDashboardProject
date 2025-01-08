@@ -241,6 +241,25 @@ body {
 .announcements-container {
     background-color: white;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px 30px;
     display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcement-article {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcement-article:not(:nth-child(3)) {
+    border-bottom: 1px solid gray;
+}
+
+.announcement-article h4 {
+    align-content: end;
+    font-weight: bold;
+}
+.announcement-article p {
+    color: gray;
+    font-size: .9rem
 }

@@ -161,3 +161,26 @@ body {
     gap: 15px;
 }
 
+.user-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user-actions button {
+    border-radius: 25px;
+    color: white;
+    width: 85%;
+    height: 70%;
+    background-color: rgb(26 146 211);
+    border: none;
+}
+
+.user-actions,
+.welcome-banner,
+.user-controls,
+.search label {
+    align-items: center;
+}

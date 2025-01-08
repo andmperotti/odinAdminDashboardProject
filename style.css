@@ -65,7 +65,7 @@ body {
 }
 
 .main-header {
-    grid-area: 1/2/3/3
+    grid-area: 1/2/2/3
 }
 
 .main-content {
@@ -114,4 +114,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
+}
+
+/* header styling */
+.main-header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }

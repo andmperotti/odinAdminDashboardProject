@@ -236,6 +236,7 @@ body {
 .announcements {
     display: grid;
     grid-template-rows: 1fr 9fr;
+    grid-area: 1/2/2/3;
 }
 
 .announcements-container {
@@ -262,4 +263,12 @@ body {
 .announcement-article p {
     color: gray;
     font-size: .9rem
+}
+
+/* trending layout and styling */
+
+.trending {
+    grid-area: 2/2/3/3;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
 }

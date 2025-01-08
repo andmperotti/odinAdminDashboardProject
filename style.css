@@ -122,6 +122,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 1.5rem 3rem;
+    gap: 20px;
 }
 
 .search {
@@ -138,4 +140,10 @@ body {
 
 .user-actions {
     grid-area: 2/2/3/3;
+}
+
+.search label {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 15px;
 }

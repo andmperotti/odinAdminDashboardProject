@@ -277,4 +277,11 @@ body {
     display: grid;
     background-color: white;
     padding: 15px;
+    gap: 20px;
+}
+
+.trending-person {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 }

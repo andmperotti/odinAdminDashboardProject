@@ -272,3 +272,9 @@ body {
     display: grid;
     grid-template-rows: 1fr 9fr;
 }
+
+.trending-container {
+    display: grid;
+    background-color: white;
+    padding: 15px;
+}

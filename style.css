@@ -154,3 +154,10 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
     gap: 20px;
 }
+
+.welcome-banner {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 15px;
+}
+

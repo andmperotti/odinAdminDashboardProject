@@ -184,3 +184,11 @@ body {
 .search label {
     align-items: center;
 }
+
+/* main-content layout and some styling */
+.main-content {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: lightgray;
+}

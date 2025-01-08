@@ -123,3 +123,19 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
+.search {
+    grid-area: 1/1/2/2;
+}
+
+.user-controls {
+    grid-area: 1/2/2/3;
+}
+
+.welcome-banner {
+    grid-area: 2/1/3/2;
+}
+
+.user-actions {
+    grid-area: 2/2/3/3;
+}

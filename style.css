@@ -76,33 +76,42 @@ body {
 .main-sidebar {
     display: grid;
     grid-template-columns: 1fr;
-    align-content: flex-start;
+    align-content: start;
     grid-auto-rows: auto;
-    gap: 25px;
+    gap: 70px;
     background-color: rgb(26 146 211);
     padding: 2rem;
 }
 
-.sidebar-header,
-.sidebar-navigation,
-.sidebar-branding {
-    display: grid;
-}
 .sidebar-header h1 {
     font-size: 2rem;
     color: white;
 }
+
 .sidebar-navigation h2, 
 .sidebar-branding h2 {
     font-size: 1.5rem;
     color: white;
 }
+
 .sidebar-branding a, 
 .sidebar-header a, 
 .sidebar-navigation a {
     text-decoration: none;
 }
 
-.main-sidebar  a {
-    display: flex;
+.sidebar-header,
+.sidebar-navigation,
+.sidebar-branding {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.sidebar-header a, 
+.sidebar-navigation a, 
+.sidebar-branding a {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 }

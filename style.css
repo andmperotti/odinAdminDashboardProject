@@ -231,3 +231,16 @@ body {
     grid-area: 3/2/4/3;
     justify-self: center;
 }
+
+/* announcements layout and styling */
+.announcements {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+.announcements-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: grid;
+}

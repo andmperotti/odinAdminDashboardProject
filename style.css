@@ -119,6 +119,10 @@ body {
     align-items: center;
 }
 
+.sidebar-icon {
+    filter: invert(100%);
+}
+
 /* header styling */
 .main-header {
     background-color: white;

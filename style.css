@@ -235,8 +235,13 @@ body {
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 15px;
 }
-
+.project-actions img {
+    width: 1.5rem; 
+    height: 1.5rem;
+}
 /* announcements layout and styling */
 .announcements {
     display: grid;

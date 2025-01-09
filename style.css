@@ -203,6 +203,12 @@ body {
     width: 1.7rem;
 }
 
+.user-controls-avatar {
+    width: 4rem;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
 /* main-content layout and some styling */
 .main-content {
     display: grid; 

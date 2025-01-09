@@ -157,7 +157,6 @@ body {
 .search label {
     display: grid;
     grid-template-columns: 1fr 9fr;
-    gap: 15px;
 }
 
 .user-controls {
@@ -190,11 +189,18 @@ body {
     border: none;
 }
 
-.user-actions,
-.welcome-banner,
-.user-controls,
-.search label {
-    align-items: center;
+.header-icon {
+    width: 1.8rem;
+}
+
+.search-bar {
+    border-radius: 15px;
+    border: none;
+    background-color: lightgray;
+}
+
+.user-controls-notification {
+    width: 1.7rem;
 }
 
 /* main-content layout and some styling */

@@ -209,6 +209,12 @@ body {
     border-radius: 100%;
 }
 
+.welcome-banner-avatar{
+    width: 6rem;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
 /* main-content layout and some styling */
 .main-content {
     display: grid; 

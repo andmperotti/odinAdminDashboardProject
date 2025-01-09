@@ -121,6 +121,11 @@ body {
 
 .sidebar-icon {
     filter: invert(100%);
+    width: 1.6rem;
+}
+
+.sidebar-icon-main {
+    filter: invert(100%);
 }
 
 /* header styling */

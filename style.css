@@ -322,3 +322,9 @@ body {
     grid-template-columns: 1fr 4fr;
     align-items: center;
 }
+
+.trending-person img {
+    width: 3rem;
+    border: 1px solid gray;
+    border-radius: 100%;
+}

@@ -192,10 +192,11 @@ body {
 .user-actions button {
     border-radius: 25px;
     color: white;
-    width: 85%;
-    height: 70%;
+    width: 95%;
+    height: 60%;
     background-color: rgb(26 146 211);
     border: none;
+    font-size: 1rem;
 }
 
 .header-icon {

@@ -175,7 +175,6 @@ body {
 .welcome-banner {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    gap: 15px;
 }
 
 .user-actions {
@@ -217,6 +216,20 @@ body {
 .welcome-banner-avatar{
     width: 6rem;
     border-radius: 100%;
+}
+.welcome-text {
+    display: grid;
+    gap: 5px;
+    align-content: center;
+}
+.welcome-text span {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.welcome-text h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 /* main-content layout and some styling */
 .main-content {

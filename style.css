@@ -175,7 +175,7 @@ body {
 .user-controls {
     margin-left: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 120px;
     gap: 5px;
     justify-items: center;
     align-items: center;
@@ -216,6 +216,11 @@ body {
 .user-controls-avatar {
     width: 4rem;
     border-radius: 100%;
+}
+
+.user-controls h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .welcome-banner {

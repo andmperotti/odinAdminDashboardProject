@@ -54,6 +54,11 @@ html {
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 /* main grid container layout */
 body {
     display: grid;
@@ -162,8 +167,9 @@ body {
 .user-controls {
     margin-left: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+    justify-items: center;
 }
 
 .welcome-banner {
@@ -196,7 +202,7 @@ body {
 .search-bar {
     border-radius: 15px;
     border: none;
-    background-color: lightgray;
+    background-color: rgb(226, 232, 240);
 }
 
 .user-controls-notification {
@@ -205,22 +211,19 @@ body {
 
 .user-controls-avatar {
     width: 4rem;
-    border: 1px solid gray;
     border-radius: 100%;
 }
 
 .welcome-banner-avatar{
     width: 6rem;
-    border: 1px solid gray;
     border-radius: 100%;
 }
-
 /* main-content layout and some styling */
 .main-content {
     display: grid; 
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: lightgray;
+    background-color: rgb(226, 232, 240);
     padding: 2rem;
     gap: 20px;
 }
@@ -290,7 +293,7 @@ body {
 }
 
 .announcement-article:not(:nth-child(3)) {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(226, 232, 240);
 }
 
 .announcement-article h4 {
@@ -325,6 +328,5 @@ body {
 
 .trending-person img {
     width: 3rem;
-    border: 1px solid gray;
     border-radius: 100%;
 }
